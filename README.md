@@ -6,12 +6,12 @@
 A+1 = B, L+1 = M ... etc ).
 
 
-###### 1. Alice crée un message
-### 2. Alice chiffre le message
-### 3. Alice envoie le message à Bob
-### 4. Bob reçoit le message
-### 5. Bob déchiffre le message
-### 6. Bon envoie le message à Alice « J’ai bien reçu ton message »
+-   1. Alice crée un message
+-   2. Alice chiffre le message
+-   3. Alice envoie le message à Bob
+-   4. Bob reçoit le message
+-   5. Bob déchiffre le message
+-   6. Bon envoie le message à Alice « J’ai bien reçu ton message »
 
 
 ## version numero 01 :
