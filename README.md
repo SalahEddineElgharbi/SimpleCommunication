@@ -19,7 +19,6 @@ avec meme principe juste en utilse les thread et les sockets
 
 
 ## version numero 03 :
-real chifrment en urilise RSA or ECC encryption avec utilisation des multithread et une simple GUI pour verifies les communication et generation les cles privee, public , les signatures ...etc.
-
+réal chiffrement en utilise RSA or ECC encryption avec utilisation des multithread et une simple GUI pour vérifier les communications et générations des clés privée, public , les signatures ...etc.
 
 
