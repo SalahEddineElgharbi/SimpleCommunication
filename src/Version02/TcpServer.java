@@ -56,7 +56,7 @@ public class TcpServer {
                         //traitment
 
                         String message = Decryption(msgg, 5);
-                        System.out.println(" jai bien comprnedre bob, vous  ete esyee de ma dit : " + message);
+                        System.out.println(" j'ai bien compris bob, vous été essayée de me dit : : " + message);
 
 
                         if (message.equalsIgnoreCase("by") || new Scanner(System.in).nextLine().equalsIgnoreCase("end"))

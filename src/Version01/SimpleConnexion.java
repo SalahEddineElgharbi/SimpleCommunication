@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class SimpleConnexion {
     private final String name;
     private int Key = 5;
-    private String ciphertext="", text="";
+    private String ciphertext, text;
 
     public String getName() {
         return name;
@@ -28,10 +28,11 @@ public class SimpleConnexion {
 
     public String Encryption(Scanner input) throws RemoteException {
 
-        System.out.println(name + " >>> est crée un message : ");
+        System.out.print(name + " ... : ");
         String message = input.nextLine();
 
         char[] msg = message.toCharArray();
+        ciphertext="";
         for (char c : msg) {
             c += Key;
             ciphertext += c;
@@ -44,7 +45,8 @@ public class SimpleConnexion {
     public String Decryption (String ciphertext) throws RemoteException {
         char[] cipher = ciphertext.toCharArray();
 
-        System.out.print(" >>> le message est recoit");
+        System.out.print(" >>>le message est reçoit ");
+        text="";
         for (char m : cipher) {
             m -= Key;
             text+=m;

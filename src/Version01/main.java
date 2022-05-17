@@ -18,9 +18,10 @@ public class main {
             try {
 
                 String encrypted = current.Encryption(input);
-                System.out.println(">>> chiffre le message :  " + encrypted);
-                System.out.println(" >>> le message est envoyee ");
-                System.out.println( " " + (current.equals(Bob) ? Alice.getName() : Bob.getName()) + "  >>> déchiffre le message et lit : " + current.Decryption(encrypted));
+                System.out.println("\n  après chiffrer le message :  " + encrypted);
+                System.out.println(" ****   le message est envoyee   **** ");
+                System.out.println( " " + (current.equals(Bob) ? Alice.getName() : Bob.getName()) + " \n  j'ai bien compris, vous été essayée de me dit : : " + current.Decryption(encrypted));
+
 
                 if (current.equals(Bob))
                     current = Alice;
