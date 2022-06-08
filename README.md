@@ -14,7 +14,7 @@ A+1 = B, L+1 = M ... etc ).
 -   6. Bon envoie le message à Alice « J’ai bien reçu ton message »
 
 
-## version numero 01 :
+## version numero 02 :
 avec meme principe juste en utilse les thread et les sockets
 
 
